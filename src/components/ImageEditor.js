@@ -24,6 +24,7 @@ function ImageEditor() {
   const [activeSticker, setActiveSticker] = useState(null);
   const [isDownloading, setIsDownloading] = useState(false);
 
+  
   const fileInputRef = useRef(null);
 
   const validFileTypes = [
