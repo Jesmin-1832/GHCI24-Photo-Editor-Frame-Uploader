@@ -8,6 +8,6 @@ function App() {
       <ImageEditor />
     </div>
   );
-}
+} 
 
 export default App;
