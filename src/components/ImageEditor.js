@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import Cropper from "react-easy-crop";
 import "../css/imageEditor.css";
-  
+   
 function ImageEditor() {
   const [file, setFile] = useState(null);
   const [loading, setLoading] = useState(false);
