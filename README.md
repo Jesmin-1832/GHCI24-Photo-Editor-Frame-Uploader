@@ -1,55 +1,15 @@
 GHCI24 Photo Editor
-This is a responsive photo editor designed for GHCI24 participants. With this app, users can upload their photos, adjust various filters (brightness, contrast, zoom), and apply a custom GHCI24 frame. The final image can be downloaded and used as a profile picture for the event.
-
 This project was bootstrapped with Create React App.
-
-Table of Contents
-Getting Started
-
-Available Scripts
-
-How to Use
-
-Features
-
-Technologies Used
-
-Deployment
-
-Contributing
-
-License
-
-Getting Started
-Follow these steps to get the project up and running on your local machine for development and testing:
-
-Clone the repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/<username>/GHCI24-Photo-Editor.git
-cd GHCI24-Photo-Editor
-Install dependencies:
-
-bash
-Copy
-Edit
-npm install
-Start the development server:
-
-bash
-Copy
-Edit
-npm start
-This will open the app in your default browser at http://localhost:3000.
 
 Available Scripts
 In the project directory, you can run:
 
 npm start
 Runs the app in development mode.
-Open http://localhost:3000 to view it in your browser. The page will reload if you make changes. You may also see any lint errors in the console.
+Open http://localhost:3000 to view it in your browser.
+
+The page will reload when you make changes.
+You may also see any lint errors in the console.
 
 npm test
 Launches the test runner in interactive watch mode.
@@ -58,104 +18,93 @@ See the section about running tests for more information.
 npm run build
 Builds the app for production to the build folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.
-The build is minified and the filenames include the hashes. Your app is ready to be deployed.
+
+The build is minified, and the filenames include the hashes.
+Your app is ready to be deployed!
+
+For more information about deployment, you can read the deployment guide.
 
 npm run eject
 Note: This is a one-way operation. Once you eject, you can't go back!
 
-If you aren't satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project. It will copy all configuration files and transitive dependencies (webpack, Babel, ESLint, etc.) into your project, so you have full control over them.
+If you aren't satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc.) into your project, giving you full control over them.
+
+You don’t have to ever use eject. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However, we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 How to Use
-Upload your photo: Click the upload button and select an image from your computer.
+GHCI24 Photo Editor allows users to upload their photo, adjust various filters, and add a custom GHCI24 frame. The image can then be downloaded and set as your profile picture (DP) for the Grace Hopper Celebration (GHCI24) event.
 
-Adjust Filters: Use the available sliders to adjust:
+Steps:
+Upload Photo: Click the "Upload" button to choose your image.
 
-Brightness: Increase or decrease the brightness of your image.
+Adjust Filters: Use the available sliders to:
 
-Contrast: Modify the contrast levels.
+Brightness: Adjust the brightness of your image.
+
+Contrast: Change the contrast of your image.
 
 Zoom: Zoom in or out on your image.
 
-Apply GHCI24 Frame: After adjusting the photo, select a custom GHCI24 frame to overlay onto your image.
+Apply GHCI24 Frame: After editing the image, apply a GHCI24 frame.
 
-Download: Once you're happy with your image, click the download button to save it to your device. You can now set it as your profile picture (DP) for GHCI24.
+Download Image: Click the Download button to save your edited image.
 
-Features
-Responsive: Works seamlessly on both desktop and mobile devices.
-
-Photo Upload: Upload your own image from your local storage.
-
-Filter Adjustment: Adjust brightness, contrast, and zoom.
-
-Custom Frame: Add a custom GHCI24 frame to your photo.
-
-Downloadable Image: Save the final photo and use it for your GHCI24 profile picture.
+Now, you can set it as your DP for GHCI24!
 
 Technologies Used
 React: JavaScript library for building user interfaces.
 
-HTML5: For structuring the content.
+HTML5 & CSS3: For content structure and styling.
 
-CSS3: For styling and responsiveness.
+Fabric.js: A JavaScript canvas library used for image manipulation (applying filters and frames).
 
-Fabric.js: A powerful image manipulation library used to apply filters and frames.
-
-JavaScript (ES6+): For the logic and interactivity of the app.
+JavaScript (ES6): For app logic and interactivity.
 
 Deployment
-To deploy this app to the web, follow these steps:
+Once you're ready to deploy your app to production:
 
-Build for production:
+Build the app:
 
 bash
 Copy
 Edit
 npm run build
-This will create a production-ready version of your app in the build directory.
+This will create an optimized production build in the build/ folder.
 
-Deploy to a platform:
+Deploy:
 
-You can deploy this app on platforms like Netlify or GitHub Pages.
+You can deploy to platforms like Netlify, GitHub Pages, or Vercel.
 
-Simply follow their deployment guides to push your build folder to their servers.
+For GitHub Pages, follow this deployment guide.
 
-Contributing
-We welcome contributions from the open-source community! If you'd like to help improve this project, follow these steps:
+For Netlify, check out their deployment instructions.
 
-Fork the repository to your GitHub account.
+Learn More
+You can learn more in the Create React App documentation.
 
-Clone your fork to your local machine:
+To learn React, check out the React documentation.
 
-bash
-Copy
-Edit
-git clone https://github.com/<your-username>/GHCI24-Photo-Editor.git
-cd GHCI24-Photo-Editor
-Create a new branch:
+Code Splitting
+This section has moved here: Code Splitting.
 
-bash
-Copy
-Edit
-git checkout -b feature-name
-Make your changes, commit them, and push them to your fork:
+Analyzing the Bundle Size
+This section has moved here: Analyzing Bundle Size.
 
-bash
-Copy
-Edit
-git commit -m "Add feature"
-git push origin feature-name
-Open a pull request to the main repository.
+Making a Progressive Web App
+This section has moved here: Making a Progressive Web App.
+
+Advanced Configuration
+This section has moved here: Advanced Configuration.
+
+Deployment
+For more about deployment, see the section here.
+
+npm run build fails to minify
+This section has moved here: Troubleshooting Build Failures.
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Additional Resources
-Create React App Documentation
-
-React Documentation
-
-Fabric.js Documentation
-
-Note: This is a simple template for a React project. Depending on your implementation (such as advanced filtering, additional features, or backend integration), you might need to modify the instructions accordingly.
-
-Feel free to adjust and add more details as per your needs.
+Now, this version is updated with your project-specific information like how to upload, edit the photo, apply frames, and download the final image. The rest of the sections are left as-is, but any unnecessary information is minimized.
